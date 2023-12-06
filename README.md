@@ -33,40 +33,41 @@ O projeto possui as seguintes funcionalidades principais:
 
 - Soma total do valor dos protudos inclusos no carrinho de compras
 
-
-
 ## <a id="configuracao"></a>⚙️ Configuração
 
 Siga as etapas abaixo para configurar o projeto em seu ambiente local:
 
 1. **Clone o repositório do GitHub:**
+
 ```nodejs
 git clone https://github.com/Velofuri/veloshop.git
 ```
 
 3. **Instale as dependências do projeto:**
+
 ```nodejs
 npm install
 ```
 
 4. **Execute o projeto:**
+
 ```nodejs
 npm run dev
 ```
 
-5. **Instale o json-server **
-   ```nodejs
-   npm install -g json-server
-   ```
-   
+5. **Instale o json-server**
+
+```nodejs
+npm install -g json-server
+```
+
 6. **Em outro terminal execute a api fake**
-   ```nodejs
-   json-server --watch db.json
-   ```
+
+```nodejs
+json-server --watch db.json
+```
 
 7. **O Velo Shop estará disponível localmente em `http://localhost:5173`.**
-
-
 
 ## <a id="roadmap"></a>🗺️ Roadmap
 
@@ -81,19 +82,23 @@ As contribuições para o projeto são bem-vindas. Se você deseja contribuir, s
 
 1. Faça um fork do repositório.
 2. Crie uma branch para sua feature:
-   
+
 ```nodejs
 git checkout -b minha-feature
 ```
 
 3. Desenvolva sua feature e faça commit das alterações:
+
 ```nodejs
 git commit -m "Minha nova feature"
 ```
+
 4. Faça push da branch para o repositório remoto:
+
 ```nodejs
 git push origin minha-feature
 ```
+
 5. Abra um pull request no repositório original.
 
 ## <a id="licenca"></a>📄 Licença
