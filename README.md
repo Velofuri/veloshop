@@ -53,12 +53,18 @@ npm install
 ```nodejs
 npm run dev
 ```
-5. **Em outro terminal execute a api fake**
+
+5. **Instale o json-server **
+   ```nodejs
+   npm install -g json-server
+   ```
+   
+6. **Em outro terminal execute a api fake**
    ```nodejs
    json-server --watch db.json
    ```
 
-6. **O Velo Shop estará disponível localmente em `http://localhost:5173`.**
+7. **O Velo Shop estará disponível localmente em `http://localhost:5173`.**
 
 
 
