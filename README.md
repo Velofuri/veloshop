@@ -1,30 +1,99 @@
-# React + TypeScript + Vite
+<div align='center'>
+  <h1>Velo Shop</h1>
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align='center'>
+  <img src='https://github.com/Velofuri/veloshop/assets/115018302/249e591f-5d22-434b-94c2-4500626fdb92'>
+</div>
+<br>
+<br>
 
-Currently, two official plugins are available:
+**🚀 Descrição do projeto**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Funcionalidades](#funcionalidades)
+- [Configuração](#configuracao)
+- [Roadmap](#roadmap)
+- [Contribuição](#contribuicao)
+- [Licença](#licenca)
+- [Contato](#contato)
 
-## Expanding the ESLint configuration
+## <a id="funcionalidades"></a> ✨ Funcionalidades
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+O projeto possui as seguintes funcionalidades principais:
 
-- Configure the top-level `parserOptions` property like this:
+- Busca a lista de produtos em um api
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+- exibe os produtos na pagina home
+
+- pagina de detalhes dos produtos
+
+- adiciona produto no carrinho
+
+- remove produtos do carrinho
+
+- Soma total do valor dos protudos inclusos no carrinho de compras
+
+
+
+## <a id="configuracao"></a>⚙️ Configuração
+
+Siga as etapas abaixo para configurar o projeto em seu ambiente local:
+
+1. **Clone o repositório do GitHub:**
+```nodejs
+git clone https://github.com/Velofuri/veloshop.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+3. **Instale as dependências do projeto:**
+```nodejs
+npm install
+```
+
+4. **Execute o projeto:**
+```nodejs
+npm run dev
+```
+5. **Em outro terminal execute a api fake**
+   ```nodejs
+   json-server --watch db.json
+   ```
+
+6. **O Velo Shop estará disponível localmente em `http://localhost:5173`.**
+
+
+
+## <a id="roadmap"></a>🗺️ Roadmap
+
+A seguir, estão as próximas etapas planejadas para o desenvolvimento deste projeto:
+
+- Implementar sistema de login, autenticação e autorização.
+- Implementar sistema de pagamento
+
+## <a id="contribuicao"></a>🤝 Contribuição
+
+As contribuições para o projeto são bem-vindas. Se você deseja contribuir, siga as etapas abaixo:
+
+1. Faça um fork do repositório.
+2. Crie uma branch para sua feature:
+   
+```nodejs
+git checkout -b minha-feature
+```
+
+3. Desenvolva sua feature e faça commit das alterações:
+```nodejs
+git commit -m "Minha nova feature"
+```
+4. Faça push da branch para o repositório remoto:
+```nodejs
+git push origin minha-feature
+```
+5. Abra um pull request no repositório original.
+
+## <a id="licenca"></a>📄 Licença
+
+Ainda não implementado
+
+## <a id="contato"></a>📧 Contato
+
+Se você tiver alguma dúvida ou sugestão em relação a este projeto, entre em contato com velofuri@gmail.com
